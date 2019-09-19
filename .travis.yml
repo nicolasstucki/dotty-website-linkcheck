@@ -6,4 +6,4 @@ node_js:
 before_install:
   - npm install -g broken-link-checker
 
-script: blc -ro https://dotty.epfl.ch -exclude https://vimeo.com
+script: blc -ro https://dotty.epfl.ch -exclude https://vimeo.com -exclude https://plg.uwaterloo.ca/\~olhotak/
