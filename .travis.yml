@@ -6,4 +6,4 @@ node_js:
 before_install:
   - npm install -g broken-link-checker
 
-script: blc -ro https://dotty.epfl.ch -exclude https://vimeo.com -exclude https://plg.uwaterloo.ca/\~olhotak/
+script: blc -ro https://dotty.epfl.ch -exclude https://vimeo.com -exclude https://plg.uwaterloo.ca/\~olhotak/ -exclude https://dl.acm.org/citation.cfm?id=3158130 -exclude http://cacm.acm.org/magazines/2015/2/182650-in-defense-of-soundiness/fulltext
